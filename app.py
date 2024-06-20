@@ -6,6 +6,7 @@ import dash_leaflet as dl
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Load data from the correct sheet in the Excel file
 data_path = '/russelviper.xlsx'
